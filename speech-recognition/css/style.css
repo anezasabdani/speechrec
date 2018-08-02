@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+figure {
+  position: relative;
+  width: 375px;
+  margin: 90px auto;
+}
+figure textarea {
+  display: block;
+  width: 375px;
+  height: 122px;
+  font-family: 'Lato';
+  font-size: 22px;
+  resize: none;
+}
+figure .fa {
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  padding: 14px 20px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 100%;
+  font-size: 33px;
+  cursor: pointer;
+}
+figure .fa.active {
+  background: red;
+}
